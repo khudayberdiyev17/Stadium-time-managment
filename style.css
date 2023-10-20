@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+               
+body {
+    background-color: black;
+  }
+    
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    top: -260px;
+    position: relative;
+    font-size: 500px;
+    font-family: 'alarm clock', sans-serif;
+                                                
+  }
+  
+  .red {
+    color: red; 
+  }
+  
+  
+  .button-group {
+    position: relative;
+    left: 110px;
+    top: -400px;
+  }
+  
+  #info-1,
+  #info-2,
+  #info-3,
+  #info-4,
+  #info-5,
+  #info-6,
+  #info-7,
+  #reset-button {
+    background-color: #15572497;
+    border-radius: 7px;
+    border: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #info-1,
+  #info-2,
+  #info-3,
+  #info-4,
+  #info-5,
+  #info-6,
+  #info-7 {
+    transition-duration: 0.4s;
+  }
+  
+  #info-1:hover,
+  #info-2:hover,
+  #info-3:hover,
+  #info-4:hover,
+  #info-5:hover,
+  #info-6:hover,
+  #info-7:hover {
+    background-color: #2f00ff;
+    color: white;
+  }
+  
+  #reset-button {
+    background-color: #dc3545;
+    transition-duration: 0.4s;
+  }
+  
+  #reset-button:hover {
+    background-color: #ff0000;
+    color: white;
+  }
